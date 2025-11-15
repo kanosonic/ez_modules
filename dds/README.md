@@ -5,9 +5,9 @@ This is a verilog project of dds.
 ​    wave_amp[1:0]: Decide the output amplitude.
 
 ​    f_word[7:0]: Decide the output frequency. The formula is below:  
-$$
-f_{word} = (1 << 8) * freq_{dst} / freq_{ref}
-$$
+
+`f_word = (1 << 8) * freq_dst / freq_ref`
+
 ​    p_word[7:0]: Additional phase.
 
 ​    wave_sel[1:0]: Select the  type of waveform.
